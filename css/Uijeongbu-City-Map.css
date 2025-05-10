@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.Yonghyeon-dong,
+.Shingok-dong,
+.Geumo-dong,
+.Nokyang-dong,
+.Uijeongbu-dong,
+.Ganeun-dong,
+.Hawwon-dong,
+.Jangam-dong,
+.Sangok-dong,
+.Gosan-dong,
+.Minrak-dong,
+.Nakyang-dong,
+.Jail-dong {
+    cursor: pointer;
+}
+
+.Yonghyeon-dong:hover path,
+.Shingok-dong:hover path,
+.Geumo-dong:hover path,
+.Nokyang-dong:hover path,
+.Uijeongbu-dong:hover path,
+.Ganeun-dong:hover path,
+.Hawwon-dong:hover path,
+.Jangam-dong:hover path,
+.Sangok-dong:hover path,
+.Gosan-dong:hover path,
+.Minrak-dong:hover path,
+.Nakyang-dong:hover path,
+.Jail-dong:hover path { 
+    fill: rgb(71, 74, 241);
+    border: 1px solid;
+    text-shadow: 1px 1px 2px rgba(43, 87, 235, 0.5);
+}
