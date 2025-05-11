@@ -1,22 +1,36 @@
 @charset "UTF-8";
 
-.Yonghyeon-dong,
-.Shingok-dong,
-.Geumo-dong,
-.Nokyang-dong,
-.Uijeongbu-dong,
-.Ganeun-dong,
-.Hawwon-dong,
-.Jangam-dong,
-.Sangok-dong,
-.Gosan-dong,
-.Minrak-dong,
-.Nakyang-dong,
-.Jail-dong {
+/* svg 여백공간 처리*/
+#map-container svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3797FF;
+}
+
+/* 각 지역 동 */
+.Yonghyeon-dong,  /* 용현동 */
+.Shingok-dong,    /* 신곡동 */
+.Geumo-dong,      /* 금오동 */
+.Nokyang-dong,    /* 녹양동 */
+.Uijeongbu-dong,  /* 의정부동 */
+.Ganeun-dong,     /* 가능동 */
+.Hawwon-dong,     /* 호원동 */
+.Jangam-dong,     /* 장암동 */
+.Sangok-dong,     /* 산곡동 */
+.Gosan-dong,      /* 고산동 */
+.Minrak-dong,     /* 민락동 */
+.Nakyang-dong,    /* 낙양동 */
+.Jail-dong {      /* 자일동 */
     cursor: pointer;
 }
 
-.Yonghyeon-dong:hover path,
+
+/* 각 지역 동 hovaer효과과 */
+.Yonghyeon-dong:hover path, 
 .Shingok-dong:hover path,
 .Geumo-dong:hover path,
 .Nokyang-dong:hover path,
