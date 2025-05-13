@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+    background-color: #3797FF;
+    color: white;
+}
+
+.Minrak-dong-conent {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.Nature {
+    background-color: #a7d26c;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* 각각의 장소 박스 */
+.Minrak-dong-conent article {
+    display: flex; 
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 16px;
+    margin-bottom: 20px;
+    gap: 16px; 
+}
+
+.Minrak-dong-conent article img {
+    width: 120px;
+    height: 90px; 
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.Minrak-dong-Natur h3 {
+    margin-top: 0; 
+    font-size: 20px;
+    color: #68f825;
+}
+
+.Minrak-dong-conent article p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.history{
+    background-color: #f89d27;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.Minrak-dong-history h3{
+    margin-top: 0; 
+    font-size: 20px;
+    color: #f89d27;
+}
