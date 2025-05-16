@@ -5,12 +5,12 @@ body{
     color: white;
 }
 
-.conent {
+.dong-content {
     padding: 20px;
     font-family: 'Arial', sans-serif;
 }
 
-.conent article {
+.dong-content article {
     display: flex;
     align-items: flex-start; 
     background-color: white;
@@ -21,14 +21,14 @@ body{
     gap: 16px; 
 }
 
-.conent article img {
+.dong-content article img {
     width: 200px; 
     height: 160px; 
     object-fit: cover;
     border-radius: 12px;
 }
 
-.conent article p {
+.dong-content article p {
     font-size: 15px;
     line-height: 1.5;
     color: #333;
@@ -48,7 +48,7 @@ body{
 }
 
 /* 민락동자연 여행 제목 */
-.Natur-trip h3 {
+.dong-Natur h3 {
     margin-top: 0; 
     font-size: 20px;
     color: #68f825;
@@ -68,7 +68,7 @@ body{
 }
 
 /* 민락동역사 여행 제목 */
-.history-trip h3{
+.dong-history h3{
     margin-top: 0; 
     font-size: 20px;
     color: #f89d27;
@@ -88,7 +88,7 @@ body{
 }
 
 /* 민락동문화 여행 제목 */
-.Culture-trip h3{
+.dong-Culture h3{
     margin-top: 0; /* 제목의 상단 마진 제거 */
     font-size: 20px;
     color: #5dffc1;
