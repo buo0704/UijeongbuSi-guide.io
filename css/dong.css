@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body{
+    background-color: #3797FF;
+    color: white;
+}
+
+.conent {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.conent article {
+    display: flex;
+    align-items: flex-start; 
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 16px;
+    margin-bottom: 20px;
+    gap: 16px; 
+}
+
+.conent article img {
+    width: 200px; 
+    height: 160px; 
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.conent article p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+/*민락동 자연*/
+/*민락동자연 여행*/
+.Nature {
+    background-color: #a7d26c;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* 민락동자연 여행 제목 */
+.Natur-trip h3 {
+    margin-top: 0; 
+    font-size: 20px;
+    color: #68f825;
+}
+
+
+/*민락동 역사*/
+/*민락동 역사 여행*/
+.history{
+    background-color: #f89d27;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* 민락동역사 여행 제목 */
+.history-trip h3{
+    margin-top: 0; 
+    font-size: 20px;
+    color: #f89d27;
+}
+
+
+/*민락동 문화*/
+/*민락동 문화 여행*/
+.Culture{
+    background-color: #5dffc1;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* 민락동문화 여행 제목 */
+.Culture-trip h3{
+    margin-top: 0; /* 제목의 상단 마진 제거 */
+    font-size: 20px;
+    color: #5dffc1;
+}
