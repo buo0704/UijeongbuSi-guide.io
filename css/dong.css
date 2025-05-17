@@ -5,6 +5,11 @@ body{
     color: white;
 }
 
+h1{
+    font-size: 50px;
+    margin-left: 25px;
+}
+
 .dong-content {
     padding: 20px;
     font-family: 'Arial', sans-serif;
