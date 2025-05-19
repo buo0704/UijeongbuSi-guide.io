@@ -62,14 +62,14 @@ h4{
 .dong-Natur h3 {
     margin-top: 0; 
     font-size: 20px;
-    color: #68f825;
+    color: #a7d26c;
 }
 
 
 /*민락동 역사*/
 /*민락동 역사 여행*/
 .history{
-    background-color: #f89d27;
+    background-color: #b16604;
     color: rgb(255, 255, 255);
     padding: 12px;
     border-radius: 20px;
@@ -82,14 +82,14 @@ h4{
 .dong-history h3{
     margin-top: 0; 
     font-size: 20px;
-    color: #f89d27;
+    color: #b16604;
 }
 
 
 /*민락동 문화*/
 /*민락동 문화 여행*/
 .Culture{
-    background-color: #5dffc1;
+    background-color: #f58fbf;
     color: rgb(255, 255, 255);
     padding: 12px;
     border-radius: 20px;
@@ -102,5 +102,5 @@ h4{
 .dong-Culture h3{
     margin-top: 0; /* 제목의 상단 마진 제거 */
     font-size: 20px;
-    color: #5dffc1;
+    color: #f58fbf;
 }
