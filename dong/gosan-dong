@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../css/dong.css">
-<title>고산동</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/dong.css">
+    <title>고산동</title>
 </head>
 <body>
     <div class="container">
@@ -16,7 +16,7 @@
             <section class="dong-history">
                 <h2 class="history">고산동 역사 여행</h2>
                 <article>
-                    <img src="../img/의정부시 고산동 신숙주묘.jpg" alt="sinsugjumyo">
+                    <img src="../img/gosandong_sinsugjumyo.jpg" alt="신숙주 선생묘">
                         <div>
                             <h3>신숙주 선생묘</h3>
                             <p>
@@ -30,7 +30,7 @@
                         </div>
                 </article> 
                 <article>
-                    <img src="../img/의정부시 고산동 미륵암.jpg" alt="mileug-am">
+                    <img src="../img/gosandong_mileug_am.jpg" alt="미륵암">
                         <div>
                             <h3>미륵암</h3>
                             <p>
