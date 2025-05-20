@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../css/dong.css">
-<title>가능동</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/dong.css">
+    <title>가능동</title>
 </head>
 <body>
     <div class="container">
@@ -13,10 +13,10 @@
         </header>
 
         <main class="dong-content">
-            <section class="dong-Natur">
-                <h2 class="Nature">가능동 자연 여행</h2>
+            <section class="dong-natur">
+                <h2 class="nature">가능동 자연 여행</h2>
                 <article>
-                    <img src="../img/의정부시 가능동 사패산.jpg" alt="sapaesan">
+                    <img src="../img/ganeungdong_sapaesan.jpg" alt="사패산">
                         <div>
                             <h3>사패산</h3>
                             <p>
@@ -31,7 +31,7 @@
             <section class="dong-history">
                 <h2 class="history">가능동 역사 여행</h2>
                 <article>
-                    <img src="../img/의정부시 가능동 성불사.jpg" alt="seongbulsa">
+                    <img src="../img/ganeungdong_seongbulsa.jpg" alt="성불사">
                         <div>
                             <h3>성불사</h3>
                             <p>
