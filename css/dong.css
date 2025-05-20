@@ -46,9 +46,9 @@ h4{
 }
 
 
-/*민락동 자연*/
-/*민락동자연 여행*/
-.Nature {
+/* 자연 */
+/*자연 여행*/
+.nature {
     background-color: #a7d26c;
     color: rgb(255, 255, 255);
     padding: 12px;
@@ -57,17 +57,17 @@ h4{
     font-size: 24px;
     margin-bottom: 30px;
 }
-
-/* 민락동자연 여행 제목 */
-.dong-Natur h3 {
+/*자연 여행 제목 */
+.dong-natur h3 {
     margin-top: 0; 
     font-size: 20px;
     color: #a7d26c;
 }
+/* //자연 */
 
 
-/*민락동 역사*/
-/*민락동 역사 여행*/
+/*역사*/
+/*역사 여행*/
 .history{
     background-color: #b16604;
     color: rgb(255, 255, 255);
@@ -77,18 +77,18 @@ h4{
     font-size: 24px;
     margin-bottom: 30px;
 }
-
-/* 민락동역사 여행 제목 */
+/* 역사 여행 제목 */
 .dong-history h3{
     margin-top: 0; 
     font-size: 20px;
     color: #b16604;
 }
+/* //역사 */
 
 
-/*민락동 문화*/
-/*민락동 문화 여행*/
-.Culture{
+/* 문화 */
+/*문화 여행*/
+.culture{
     background-color: #f58fbf;
     color: rgb(255, 255, 255);
     padding: 12px;
@@ -97,10 +97,10 @@ h4{
     font-size: 24px;
     margin-bottom: 30px;
 }
-
-/* 민락동문화 여행 제목 */
-.dong-Culture h3{
-    margin-top: 0; /* 제목의 상단 마진 제거 */
+/* 문화 여행 제목 */
+.dong-culture h3{
+    margin-top: 0;
     font-size: 20px;
     color: #f58fbf;
 }
+/* //문화 */
