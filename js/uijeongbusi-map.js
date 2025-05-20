@@ -1,4 +1,4 @@
-// Ajax로 Uijeongbu-City-guide.html에서 Uijeongbu-City-Map.html파일을 가져옴
+// uijeongbusi-map.html파일을 index.html로 불러오기
 fetch('uijeongbusi-map.html')
     .then(response => response.text())
     .then(data => {
