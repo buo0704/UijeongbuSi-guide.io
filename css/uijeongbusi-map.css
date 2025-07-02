@@ -12,38 +12,38 @@
 }
 
 /* 각 지역 동 */
-.yonghyeon-dong,  /* 용현동 */
-.shingok-dong,    /* 신곡동 */
-.geumo-dong,      /* 금오동 */
-.nokyang-dong,    /* 녹양동 */
-.uijeongbu-dong,  /* 의정부동 */
-.ganeun-dong,     /* 가능동 */
-.howon-dong,      /* 호원동 */
-.jangam-dong,     /* 장암동 */
-.sangok-dong,     /* 산곡동 */
-.gosan-dong,      /* 고산동 */
-.minrak-dong,     /* 민락동 */
-.nakyang-dong,    /* 낙양동 */
-.jail-dong {      /* 자일동 */
+.yonghyeon-dong-fill,  /* 용현동 */
+.shingok-dong-fill,    /* 신곡동 */
+.geumo-dong-fill,      /* 금오동 */
+.nokyang-dong-fill,    /* 녹양동 */
+.uijeongbu-dong-fill,  /* 의정부동 */
+.ganeun-dong-fill,     /* 가능동 */
+.howon-dong-fill,      /* 호원동 */
+.jangam-dong-fill,     /* 장암동 */
+.sangok-dong-fill,     /* 산곡동 */
+.gosan-dong-fill,      /* 고산동 */
+.minrak-dong-fill,     /* 민락동 */
+.nakyang-dong-fill,    /* 낙양동 */
+.jail-dong-fill {      /* 자일동 */
     cursor: pointer;
 }
 
 
 /* 각 지역 동 hovaer효과과 */
-.yonghyeon-dong:hover path,     /* 용현동 */
-.shingok-dong:hover path,       /* 신곡동 */
-.geumo-dong:hover path,         /* 금오동 */
-.nokyang-dong:hover path,       /* 녹양동 */
-.uijeongbu-dong:hover path,     /* 의정부동 */
-.ganeun-dong:hover path,        /* 가능동 */
-.howon-dong:hover path,         /* 호원동 */
-.jangam-dong:hover path,        /* 장암동 */
-.sangok-dong:hover path,        /* 산곡동 */
-.gosan-dong:hover path,         /* 고산동 */
-.minrak-dong:hover path,        /* 민락동 */
-.nakyang-dong:hover path,       /* 낙양동 */
-.jail-dong:hover path {         /* 자일동 */
-    fill: rgb(71, 74, 241);
+.yonghyeon-dong-fill:hover,     /* 용현동 */
+.shingok-dong-fill:hover,       /* 신곡동 */
+.geumo-dong-fill:hover,         /* 금오동 */
+.nokyang-dong-fill:hover,       /* 녹양동 */
+.uijeongbu-dong-fill:hover,     /* 의정부동 */
+.ganeun-dong-fill:hover,        /* 가능동 */
+.howon-dong-fill:hover,         /* 호원동 */
+.jangam-dong-fill:hover,        /* 장암동 */
+.sangok-dong-fill:hover,        /* 산곡동 */
+.gosan-dong-fill:hover,         /* 고산동 */
+.minrak-dong-fill:hover,        /* 민락동 */
+.nakyang-dong-fill:hover,       /* 낙양동 */
+.jail-dong-fill:hover {         /* 자일동 */
+    fill: #474af1;
     border: 1px solid;
     text-shadow: 1px 1px 2px rgba(43, 87, 235, 0.5);
 }
