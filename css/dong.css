@@ -66,7 +66,7 @@ p{
 /* 자연 */
 /*자연 여행*/
 .nature {
-    background-color: #a7d26c;
+    background-color: #BBF97A;
     color: rgb(255, 255, 255);
     padding: 12px;
     border-radius: 20px;
@@ -78,7 +78,7 @@ p{
 .dong-natur h3 {
     margin-top: 0; 
     font-size: 20px;
-    color: #a7d26c;
+    color: #BBF97A;
 }
 /* //자연 */
 
@@ -86,7 +86,7 @@ p{
 /*역사*/
 /*역사 여행*/
 .history{
-    background-color: #b16604;
+    background-color: #59CEF7;
     color: rgb(255, 255, 255);
     padding: 12px;
     border-radius: 20px;
@@ -98,7 +98,7 @@ p{
 .dong-history h3{
     margin-top: 0; 
     font-size: 20px;
-    color: #b16604;
+    color: #59CEF7;
 }
 /* //역사 */
 
@@ -106,7 +106,7 @@ p{
 /* 문화 */
 /*문화 여행*/
 .culture{
-    background-color: #f58fbf;
+    background-color: #F73777;
     color: rgb(255, 255, 255);
     padding: 12px;
     border-radius: 20px;
@@ -118,6 +118,6 @@ p{
 .dong-culture h3{
     margin-top: 0;
     font-size: 20px;
-    color: #f58fbf;
+    color: #F73777;
 }
 /* //문화 */
