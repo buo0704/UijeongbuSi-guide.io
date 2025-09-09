@@ -30,7 +30,7 @@ h4{
 p{
     text-align: justify;
     word-break: keep-all;
-     line-height: 1.6;
+    line-height: 1.6;
 }
 
 .dong-content {
@@ -39,7 +39,6 @@ p{
 }
 
 .dong-content article {
-    display: flex;
     align-items: flex-start; 
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
@@ -121,3 +120,12 @@ p{
     color: #F73777;
 }
 /* //문화 */
+
+
+/* 의정부동 문화 여행 - 캠프박스 스타일 */
+.camp-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*2열*/
+    gap: 20px;
+    align-items: start;
+}
