@@ -252,12 +252,6 @@ ul li b {
     box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
 }
-
-.camp-box > div:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(0,0,0,0.12);
-}
-
 .camp-box img {
     width: 100%;
     height: 200px;
