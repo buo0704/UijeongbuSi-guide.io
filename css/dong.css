@@ -1,131 +1,338 @@
 @charset "UTF-8";
 
-body{
-    background-color: #ffffff;
-    color: rgb(37, 37, 37);
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
-    font-size: 50px;
-    margin-left: 30px;
-    margin-top: 40px;
-    display: inline-block;
-}
-
-h5{
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
-    margin-top: -20px;
-    font-size: 25px;
-}
-
-ul,
-h4{
-    color: black;
-    list-style-type: none;
-}
-
-p{
-    text-align: justify;
-    word-break: keep-all;
+body {
+    
+    background-color: #f5f7fa;
+    color: #2c3e50;
+    font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif;
     line-height: 1.6;
 }
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 헤더 스타일 */
+.title {
+    padding: 60px 40px;
+    margin-bottom: -20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: pulse 15s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.5; }
+    50% { transform: scale(1.1); opacity: 0.3; }
+}
+
+h1 {
+    color: black;
+    font-size: 3.5rem;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 1;
+}
+
+h5 {
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 300;
+    opacity: 0.9;
+    position: relative;
+    z-index: 1;
+}
+
+/* 콘텐츠 영역 */
 .dong-content {
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
+    padding: 20px 0;
 }
 
-.dong-content article {
-    align-items: flex-start; 
-    background-color: rgb(255, 255, 255);
-    border-radius: 16px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    padding: 16px;
-    margin-bottom: 20px;
-    gap: 16px; 
+.dong-content section {
+    margin-bottom: 80px;
 }
 
-.dong-content article img {
-    width: 200px; 
-    height: 160px; 
-    object-fit: cover;
-    border-radius: 12px;
+/* 섹션 제목 스타일 (nature, history, culture) */
+.nature,
+.history,
+.culture {
+    padding: 20px 40px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
-.dong-content article p {
-    font-size: 15px;
-    line-height: 1.5;
-    color: #333;
+.nature:hover::before,
+.history:hover::before,
+.culture:hover::before {
+    left: 100%;
 }
 
-
-/* 자연 */
-/*자연 여행*/
 .nature {
-    background-color: #BBF97A;
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 30px;
+    background: linear-gradient(135deg, #BBF97A 0%, #8FD460 100%);
+    color: white;
 }
-/*자연 여행 제목 */
+
+.history {
+    background: linear-gradient(135deg, #59CEF7 0%, #3BA3D8 100%);
+    color: white;
+}
+
+.culture {
+    background: linear-gradient(135deg, #F73777 0%, #D91A5E 100%);
+    color: white;
+}
+
+/* 카드 스타일 */
+.dong-content article {
+    display: flex;
+    align-items: flex-start;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    gap: 30px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.dong-content article:hover::before {
+    transform: scaleY(1);
+}
+
+/* 이미지 스타일 */
+.dong-content article img {
+    width: 280px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+/* 텍스트 콘텐츠 */
+.dong-content article div {
+    flex: 1;
+}
+
+.dong-natur h3,
+.dong-history h3,
+.dong-culture h3 {
+    font-size: 1.8rem;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.dong-natur h3::after,
+.dong-history h3::after,
+.dong-culture h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+}
+
 .dong-natur h3 {
-    margin-top: 0; 
-    font-size: 20px;
-    color: #BBF97A;
+    color: #8FD460;
 }
-/* //자연 */
 
-
-/*역사*/
-/*역사 여행*/
-.history{
-    background-color: #59CEF7;
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 30px;
+.dong-natur h3::after {
+    background: linear-gradient(90deg, #BBF97A, #8FD460);
 }
-/* 역사 여행 제목 */
-.dong-history h3{
-    margin-top: 0; 
-    font-size: 20px;
-    color: #59CEF7;
+
+.dong-history h3 {
+    color: #3BA3D8;
 }
-/* //역사 */
 
-
-/* 문화 */
-/*문화 여행*/
-.culture{
-    background-color: #F73777;
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 30px;
+.dong-history h3::after {
+    background: linear-gradient(90deg, #59CEF7, #3BA3D8);
 }
-/* 문화 여행 제목 */
-.dong-culture h3{
-    margin-top: 0;
-    font-size: 20px;
-    color: #F73777;
+
+.dong-culture h3 {
+    color: #D91A5E;
 }
-/* //문화 */
 
+.dong-culture h3::after {
+    background: linear-gradient(90deg, #F73777, #D91A5E);
+}
 
-/* 의정부동 문화 여행 - 캠프박스 스타일 */
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+    word-break: keep-all;
+    margin-bottom: 15px;
+}
+
+/* 리스트 스타일 */
+h4 {
+    font-size: 1.3rem;
+    color: #D91A5E;
+    margin: 25px 0 15px 0;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    border-left: 4px solid #D91A5E;
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    background: #e9ecef;
+    transform: translateX(5px);
+}
+
+ul li b {
+    color: #D91A5E;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* 캠프박스 그리드 ( 의정부동 만 적용 )  */
 .camp-box {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /*2열*/
-    gap: 20px;
-    align-items: start;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.camp-box > div {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.camp-box > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+}
+
+.camp-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.camp-box h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.camp-box p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .camp-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        padding: 40px 30px;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h5 {
+        font-size: 1rem;
+    }
+    
+    .dong-content article {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .dong-content article img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .nature,
+    .history,
+    .culture {
+        font-size: 1.5rem;
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .dong-content article {
+        padding: 15px;
+    }
+    
+    .camp-box > div {
+        padding: 20px;
+    }
 }
